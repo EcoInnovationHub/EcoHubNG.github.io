@@ -1,0 +1,129 @@
+.navbar {
+    min-height: 70px;
+}
+
+.navbar-custom {
+	background-color: #00B5AD;
+	color: #000;
+	border-radius: 0px;
+}
+
+.navbar-nav > li > a {
+    color: #000;
+}
+
+.navbar-brand {
+    color: #000;
+    margin-top: 5px;
+}
+
+a:hover.navbar-brand {
+    color: #000;
+}
+
+ul.navbar-nav {
+	margin-top: 5px;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #33C1CE;
+}
+
+.jumbotron {
+	position: relative;
+	top: -20px;
+	background-image: url(../img/eco_bg.jpg);
+	background-size: cover;
+	border-radius: 0px;
+	width: 100%;
+	height: 500px;
+}
+
+.jumbo-cta{
+margin-left: 50px;
+margin-top: 60px;
+color: #fff;
+}
+
+#jumbo-icon {
+	font-size: 10em;
+	float: left;
+}
+
+.jumbo-line {
+	border-bottom: 4px solid;
+	width: 200px;
+	font-size: 3em;
+}
+
+.text-center {
+	text-align: center;
+	font-size: 2em;
+}
+
+a>span.fa {
+	padding-right: 10px;
+}
+
+#eco-map{
+	width: 100%;
+	height: 550px;
+	top: -20px;
+}
+
+.ecopanel-cta {
+	position: absolute;
+	z-index: 1000;
+	width: 250px;
+}
+
+.input-group {
+	padding-top: 20px;
+}
+
+.content-spacer {
+	margin-top: 20px;
+	padding-top: 30px;
+}
+
+.content-row {
+	padding-top: 40px;
+}
+
+.pad-top {
+	padding-top: 20px;
+}
+
+footer {
+	background-color: #BABEC3;
+}
+
+
+/**
+	semantic ui layout customizations
+	--------------------------------- **/
+
+.ui.raised.segment{
+
+}
+
+/**
+	media query
+	----------- **/
+
+@media (max-width: 510px) {
+	.jumbo-cta{
+		margin-top: 30px;
+	}
+}
+
+a:hover.fa-twitter{
+	color: #ccf;
+}
+a:hover.fa-github{
+	color: #000;
+}
+a:hover.fa-facebook{
+	color: blue;
+}
